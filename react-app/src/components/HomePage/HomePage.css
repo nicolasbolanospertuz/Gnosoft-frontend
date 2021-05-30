@@ -1,0 +1,23 @@
+.gnosoft {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: auto;
+}
+
+.gnosoft-1 {
+  grid-column: 1;
+}
+
+.gnosoft-2 {
+  grid-column: 2;
+}
+
+.gnosoft-description {
+  margin-top: 10rem;
+  margin-right: 40rem;
+  margin-left: 40rem;
+  text-align: center;
+}
